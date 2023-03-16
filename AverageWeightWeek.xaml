@@ -1,0 +1,32 @@
+<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        MaxHeight="0"
+        MinHeight="450"
+        MaxWidth="0"
+        MinWidth="825"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Введите вес:" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="20" Width="136"/>
+        <TextBox x:Name="day1" HorizontalAlignment="Center" Margin="0,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" FontSize="18" PreviewTextInput="day1_PreviewTextInput"/>
+        <TextBox x:Name="day2" HorizontalAlignment="Center" Margin="0,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" FontSize="18" PreviewTextInput="day2_PreviewTextInput"/>
+        <TextBox x:Name="day3" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" FontSize="18" Margin="0,191,0,0" PreviewTextInput="day3_PreviewTextInput"/>
+        <TextBox x:Name="day4" HorizontalAlignment="Center" Margin="0,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" FontSize="18" PreviewTextInput="day4_PreviewTextInput"/>
+        <TextBox x:Name="day5" HorizontalAlignment="Center" Margin="0,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" FontSize="18" PreviewTextInput="day5_PreviewTextInput"/>
+        <TextBox x:Name="day6" HorizontalAlignment="Center" Margin="0,326,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" FontSize="18" PreviewTextInput="day6_PreviewTextInput"/>
+        <TextBox x:Name="day7" HorizontalAlignment="Center" Margin="0,373,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" FontSize="18" PreviewTextInput="day7_PreviewTextInput"/>
+        <Label Content="День 1:" HorizontalAlignment="Left" Margin="225,92,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="День 2:" HorizontalAlignment="Left" Margin="225,139,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="День 3:" HorizontalAlignment="Left" Margin="225,186,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="День 4:" HorizontalAlignment="Left" Margin="225,230,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="День 5:" HorizontalAlignment="Left" Margin="225,274,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="День 6:" HorizontalAlignment="Left" Margin="225,321,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="День 7:" HorizontalAlignment="Left" Margin="225,368,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button Content="Средний вес" HorizontalAlignment="Left" Margin="597,233,0,0" VerticalAlignment="Top" FontSize="20" Click="Button_Click"/>
+        <TextBox x:Name="result" HorizontalAlignment="Left" Margin="597,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18"/>
+    </Grid>
+</Window>
